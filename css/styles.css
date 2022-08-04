@@ -127,11 +127,9 @@ img {
 }
 
 .contact-icon {
-   margin-right: 10px;
-   fill: currentColor;
+  margin-right: 10px;
+  fill: currentColor;
 }
-
-
 
 .nav-container {
   display: flex;
@@ -150,20 +148,18 @@ img {
 /* Секція Нero */
 .hero {
   max-width: 1600px;
-height: 600px;
-margin-left: auto;
-margin-right: auto;
-background-image: linear-gradient(
-  to right,
-  rgba(47, 48, 58, 0.4),
-  rgba(47, 48, 58, 0.4)
-),url(../image/header/background-picture.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-
-
-
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../image/header/background-picture.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   background-color: var(--second-back-color);
   text-align: center;
@@ -215,11 +211,11 @@ background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:var(--back-color) ;
+  background-color: var(--back-color);
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
-
 
 /* Секція чим ми займаємось */
 .section-title {
@@ -238,7 +234,6 @@ background-size: cover;
 .feature-list > .items:nth-child(3n) {
   margin-right: 0;
 }
-
 
 /* Наша команда */
 .section.team {
@@ -287,21 +282,22 @@ background-size: cover;
 
 .social-list {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  margin-top: 16px;
 }
 
 .social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--white-color);
-    color:#AFB1B8 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--white-color);
+  color: #afb1b8;
 }
 
 .social-page {
@@ -312,14 +308,11 @@ background-size: cover;
   background-color: var(--acent-color);
 }
 
-
 .social-link:hover .social-page,
 .social-link:focus .social-page {
   background-color: var(--acent-color);
   fill: var(--white-color);
 }
-
-
 
 /* Постійні клієнти */
 .clients-list {
@@ -336,10 +329,10 @@ background-size: cover;
   justify-content: center;
   width: 170px;
   height: 92px;
-  border:1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   background-color: var(--white-color);
-  color: #AFB1B8;
+  color: #afb1b8;
 }
 
 .company-logo {
@@ -355,7 +348,6 @@ background-size: cover;
 .clients-link:focus .company-logo {
   color: var(--acent-color);
 }
-
 
 /* Кнопки */
 .btn {
@@ -376,9 +368,14 @@ background-size: cover;
   padding: 10px 32px;
   min-width: 200px;
   min-height: 50px;
+  border: 0;
 }
 
 /* Футер */
+
+.container.footer {
+  padding: 0;
+}
 
 .footer {
   background-color: var(--second-back-color);
@@ -423,8 +420,7 @@ background-size: cover;
 .social-title-footer {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -433,7 +429,6 @@ background-size: cover;
   text-transform: uppercase;
   color: var(--white-color);
 }
-
 
 .social-list-footer {
   display: flex;
@@ -454,8 +449,6 @@ background-size: cover;
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--white-color);
 }
-
-
 
 .social-link-footer {
   fill: currentColor;
@@ -510,16 +503,15 @@ background-size: cover;
   border-bottom: 1px solid #eeeeee;
 }
 
-
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .work-list-block:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 
 /* Кнопки */
 
@@ -555,5 +547,6 @@ background-size: cover;
 
 .filtr-btn:focus,
 .filtr-btn:hover {
-  color: var(--acent-color);
+  color: var(--white-color);
+  background-color: var(--acent-color);
 }
